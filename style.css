@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.shapeContainerWrapper {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#shapeContainer {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.shapeControls {
+    margin-top: 10px;
+}
+
+.shape {
+    position: absolute;
+    display: none;
+    box-sizing: border-box; /* Ensure margin is included in size calculations */
+}
+
+#addShape:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+#addShape{
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: black;    
+    border: none;
+    border-radius: none;
+    width: 120px;
+    height: 60px;
+}
+
+#removeShape:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+#removeShape{
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: none;
+    width: 120px;
+    height: 60px;
+}
